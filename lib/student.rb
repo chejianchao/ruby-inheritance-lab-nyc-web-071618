@@ -2,7 +2,7 @@ require_relative "./user"
 
 class Student < User
 
-  def initialize( name)
+  def initialize()
     
   end
 end
