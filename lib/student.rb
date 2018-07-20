@@ -2,7 +2,7 @@ require_relative "./user"
 
 class Student  < User
 
-  
+  attr_reader :name
   def initialize(name)
     @name = name
   end
